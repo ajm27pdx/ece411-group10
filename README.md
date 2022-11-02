@@ -6,7 +6,7 @@
 * Janvier Mpfizi
 * Tysen Tippetts
 ## Product Design Specifications
-![>>HERE<<](PDS/PDS.md)
+[>>HERE<<](PDS/PDS.md)
 
 ## Bill of Materials
 WIP
@@ -29,3 +29,4 @@ WIP
 ## Software
 - [KiCAD](https://www.kicad.org/) -- Schematic and PCB Layout
 - [FreeCAD](https://www.freecadweb.org/) -- 3D Modeling
+- [ProjectLibre](https://www.projectlibre.com/) -- Project Management
