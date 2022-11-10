@@ -6,8 +6,8 @@
 
   (title_block
     (title "Laser Security System - Schematic")
-    (date "10/26/2022")
-    (rev "0.5")
+    (date "2022-11-10")
+    (rev "1")
     (company "ECE411 Group 10 Practicum")
   )
 
@@ -360,7 +360,7 @@
       (symbol "LCD_1602_I2C_0_1"
         (rectangle (start -2.54 5.08) (end 8.89 -1.27)
           (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
+          (fill (type background))
         )
       )
       (symbol "LCD_1602_I2C_1_1"
@@ -389,7 +389,7 @@
       (property "Value" "RFID_RC522" (id 1) (at -11.43 -12.7 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" (id 2) (at 0 0 0)
+      (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
@@ -398,7 +398,7 @@
       (symbol "RFID_RC522_0_1"
         (rectangle (start -5.08 1.27) (end 5.08 -8.89)
           (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
+          (fill (type background))
         )
       )
       (symbol "RFID_RC522_1_1"
@@ -1347,16 +1347,16 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "LCD_1602_I2C" (id 1) (at 187.325 59.69 0))
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" (id 2) (at 184.15 67.31 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid d2714058-1956-48f9-ac5a-2b64137a8d54))
     (pin "1" (uuid 3e9b1bde-0312-4e54-a1ce-ed4d4b5dd6c4))
     (pin "2" (uuid ec86df64-1c2e-437c-8eb6-2fd8ffde02a8))
     (pin "3" (uuid 39c8757e-172d-41bf-bf10-6043ab154107))
+    (pin "4" (uuid d2714058-1956-48f9-ac5a-2b64137a8d54))
   )
 
   (symbol (lib_id "power:+5V") (at 200.66 60.96 0) (unit 1)
@@ -1650,10 +1650,10 @@
     (property "Datasheet" "" (id 3) (at 209.55 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 274cdd7a-de38-4e54-8a84-29d551e084b3))
-    (pin "4" (uuid c6abf2f0-48a7-4935-bd4e-ed6f33b3e625))
     (pin "1" (uuid b41b738a-45a4-4bfe-b007-0c6c472d6549))
     (pin "2" (uuid 2a0e8156-a531-4655-a913-4535c28090d7))
+    (pin "3" (uuid 274cdd7a-de38-4e54-8a84-29d551e084b3))
+    (pin "4" (uuid c6abf2f0-48a7-4935-bd4e-ed6f33b3e625))
   )
 
   (symbol (lib_id "power:+3.3V") (at 144.78 49.53 0) (unit 1)
@@ -1891,7 +1891,7 @@
       (reference "U1") (unit 1) (value "RFID_RC522") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
     )
     (path "/21a2029b-6123-4a1b-8ece-2df0a086f340"
-      (reference "U2") (unit 1) (value "LCD_1602_I2C") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical")
+      (reference "U2") (unit 1) (value "LCD_1602_I2C") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
     )
   )
 )
