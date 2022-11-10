@@ -7,9 +7,13 @@
 * Tysen Tippetts
 ## Product Design Specifications
 [>>HERE<<](PDS/PDS.md)
-
+## Funcitonal Decomposition
+### L0
+![L0](PDS/L0.png)
+### L1
+![L1](PDS/L1.png)
 ## Bill of Materials
-WIP
+[Google Sheets Link](https://docs.google.com/spreadsheets/d/1Y6daa6rxvxdisMLShwMxon2ES7SXVknLk-44MzFfnI0/edit?usp=sharing)
 ### Controllers
 - Arduino Uno
 ### Sensors
