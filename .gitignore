@@ -4,3 +4,4 @@ CAD/#auto_saved_files#
 *.pdf
 ignore/*
 CAD/fp-info-cache
+CAD/templates/*
