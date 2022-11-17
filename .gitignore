@@ -6,3 +6,6 @@ ignore/*
 CAD/fp-info-cache
 CAD/templates/*
 *.bkp
+*.zip
+CAD/build/*
+CAD/CAD.kicad_sch-bak

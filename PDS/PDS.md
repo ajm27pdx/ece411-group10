@@ -8,8 +8,8 @@ Our intended customers are anybody that might have a need to protect a space thr
 -   Must have arm/disarm interactions
 -   Must detect when the laser beam is broken to the photoresistor
 -   Must alert when beam is broken and the alarm is armed, this can be audio and/or visual
+-   Must use RFID Fob authorization for disarming
 -   Should have a test jig in order to be portable for display
--   May implement a servo to activate the laser
 ## System Architecture
 ![](L1.png)
 ## Design Specification
@@ -23,4 +23,4 @@ Our intended customers are anybody that might have a need to protect a space thr
 - Arduino will be used to the control system
 - The Arduino IDE will be able to handle the logic that we’ll need
 ### Power
-- All devices will be low power, so a wall wart to the arduino should suffice   
+- A COTS 5V wall plug will power the Arduino, the stepper motor will have it's own 9V battery power supply through a COTS buck converter.
